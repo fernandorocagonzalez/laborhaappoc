@@ -1,7 +1,8 @@
 ---
 
-- name: Simple playbook task
-  debug:
-    msg: This is a simple playbook task
-
+- hosts: "{{ hosts }}"
+  tasks:
+    - name: Simple playbook task with shell command
+      shell: ls
+      
 ...
