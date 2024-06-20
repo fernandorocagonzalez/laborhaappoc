@@ -1,0 +1,7 @@
+---
+
+- name: Simple playbook task
+  debug:
+    msg: This is a simple playbook task
+
+...
